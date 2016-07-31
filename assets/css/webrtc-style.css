@@ -1,0 +1,308 @@
+
+.input {
+    display: inline-block;
+    margin: 1em;
+    max-width: 250px;
+    position: relative;
+    vertical-align: top;
+    width: calc(100% - 2em);
+    z-index: 1;
+}
+.input__field {
+    background: #f0f0f0 none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 0;
+    color: #aaa;
+    display: block;
+    float: right;
+    font-family: "Avenir Next","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    padding: 0.8em;
+    position: relative;
+    width: 60%;
+}
+.ptext {
+    background: #f0f0f0 none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 0;
+    color: #aaa;
+    font-family: "Avenir Next","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    margin-left: 10%;
+    width: 80%;
+}
+.input__field:focus {
+    outline: medium none;
+}
+.input__label {
+    -moz-osx-font-smoothing: grayscale;
+    -moz-user-select: none;
+    color: #696969;
+    display: inline-block;
+    float: right;
+    font-size: 70.25%;
+    font-weight: bold;
+    padding: 0 1em;
+    width: 40%;
+}
+.input__label-content {
+    display: block;
+    padding: 1.6em 0;
+    position: relative;
+    width: 100%;
+}
+.graphic {
+    fill: none;
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+.icon {
+    color: #ddd;
+    font-size: 150%;
+}
+.input--nao {
+    overflow: hidden;
+    padding-top: 1em;
+}
+.input__field--nao {
+    background: transparent none repeat scroll 0 0;
+    color: #19a2c6;
+    font-size: 1.25em;
+    padding: 0.5em 0 0.25em;
+    width: 100%;
+}
+.input__label--nao {
+    display: block;
+    font-size: 0.85em;
+    left: 0;
+    padding: 0;
+    pointer-events: none;
+    position: absolute;
+    text-align: left;
+    top: 0.95em;
+    transform-origin: 0 0 0;
+    transition-delay: 0.15s, 0s;
+    transition-duration: 0.2s, 1s;
+    transition-property: transform, color;
+    transition-timing-function: ease-out;
+    width: 100%;
+}
+.graphic--nao {
+    pointer-events: none;
+    stroke: #92989e;
+    transition-delay: 0s, 0s;
+    transition-duration: 0.7s, 0.7s;
+    transition-property: transform, stroke;
+    transition-timing-function: cubic-bezier(0, 0.25, 0.5, 1);
+}
+.input__field--nao:focus + .input__label--nao, .input--filled .input__label--nao {
+    color: #333;
+    transform: translate3d(0px, -1.25em, 0px) scale3d(0.75, 0.75, 1);
+}
+.input__field--nao:focus ~ .graphic--nao, .input--filled .graphic--nao {
+    stroke: #333;
+    transform: translate3d(-66.6%, 0px, 0px);
+}
+#vid-box video {
+    height: auto;
+    /*max-height: 50vh;*/
+    width: 100%;
+}
+body {
+    background-color: #eff1f1;
+}
+.bodyDiv {
+    text-align: center;
+}
+.video2 {
+    width: 33%;
+}
+video {
+    width: 25%;
+}
+@media only screen and (min-width: 320px) and (max-width: 800px) {
+#vid-box video {
+    height: auto;
+    width: 100%;
+}
+body {
+}
+}
+.inputButton {
+    margin-top: 35px;
+}
+.md-perspective, .md-perspective body {
+    height: 100%;
+    overflow: hidden;
+}
+.md-perspective body {
+    background: #222 none repeat scroll 0 0;
+    perspective: 600px;
+}
+.container {
+    background: #e74c3c none repeat scroll 0 0;
+    min-height: 100%;
+}
+.md-modal {
+    backface-visibility: hidden;
+    height: auto;
+    left: 50%;
+    max-width: 630px;
+    min-width: 320px;
+    position: fixed;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    visibility: hidden;
+    width: 50%;
+    z-index: 2000;
+}
+.md-show {
+    border: 3px solid #19a2c6;
+    visibility: visible;
+}
+.md-overlay {
+    background: #d02129 none repeat scroll 0 0;
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: fixed;
+    top: 0;
+    transition: all 0.3s ease 0s;
+    visibility: hidden;
+    width: 100%;
+    z-index: 1000;
+}
+.md-show ~ .md-overlay {
+    opacity: 1;
+    visibility: visible;
+}
+.md-content {
+    background: #d02129 none repeat scroll 0 0;
+    border-radius: 3px;
+    margin: 0 auto;
+    position: relative;
+}
+.md-content h3 {
+    background: rgba(0, 0, 0, 0.1) none repeat scroll 0 0;
+    border-radius: 3px 3px 0 0;
+    font-size: 2.4em;
+    font-weight: 300;
+    margin: 0;
+    opacity: 0.8;
+    padding: 0.4em;
+    text-align: center;
+}
+.md-content > div {
+    font-size: 1.15em;
+    font-weight: 300;
+    margin: 0;
+    padding: 15px 40px 30px;
+}
+.md-content > div p {
+    margin: 0;
+    padding: 10px 0;
+}
+.md-content > div ul {
+    margin: 0;
+    padding: 0 0 30px 20px;
+}
+.md-content > div ul li {
+    padding: 5px 0;
+}
+.md-content button {
+    background-color: #d02129;
+    border-style: none;
+    color: #eff1f1;
+    font-size: 2em;
+}
+.md-effect-13.md-modal {
+    perspective: 1300px;
+}
+.md-effect-13 .md-content {
+    opacity: 0;
+    transform: translateZ(-3000px) rotateY(90deg);
+    transform-style: preserve-3d;
+}
+.md-show.md-effect-13 .md-content {
+    animation: 0.7s ease-out 0s normal forwards 1 running slit;
+}
+@keyframes slit {
+50% {
+    animation-timing-function: ease-out;
+    opacity: 0.5;
+    transform: translateZ(-250px) rotateY(89deg);
+}
+100% {
+    opacity: 1;
+    transform: translateZ(0px) rotateY(0deg);
+}
+}
+@keyframes slit {
+50% {
+    animation-timing-function: ease-in;
+    opacity: 1;
+    transform: translateZ(-250px) rotateY(89deg);
+}
+100% {
+    opacity: 1;
+    transform: translateZ(0px) rotateY(0deg);
+}
+}
+.cbutton {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    color: #19a2c6;
+    display: inline-block;
+    font-size: 1.4em;
+    margin: 1em;
+    overflow: visible;
+    padding: 0;
+    position: relative;
+    transition: color 0.7s ease 0s;
+}
+.cbutton.cbutton--click, .cbutton:focus {
+    color: #3c8ddc;
+    outline: medium none;
+}
+.cbutton__icon {
+    display: block;
+}
+.cbutton__text {
+    opacity: 0;
+    pointer-events: none;
+    position: absolute;
+}
+.cbutton::after {
+    border-radius: 50%;
+    content: "";
+    height: 70px;
+    left: 50%;
+    margin: -35px 0 0 -35px;
+    opacity: 0;
+    pointer-events: none;
+    position: absolute;
+    top: 50%;
+    width: 70px;
+}
+.cbutton--effect-radomir::after {
+    box-shadow: 0 0 0 35px rgba(111, 148, 182, 0) inset;
+}
+.cbutton--effect-radomir.cbutton--click::after {
+    animation: 0.5s ease-out 0s normal forwards 1 running anim-effect-radomir;
+}
+@keyframes anim-effect-radomir {
+0% {
+    opacity: 1;
+    transform: scale3d(0.4, 0.4, 1);
+}
+80% {
+    box-shadow: 0 0 0 2px rgba(111, 148, 182, 0.8) inset;
+    opacity: 0.1;
+}
+100% {
+    box-shadow: 0 0 0 2px rgba(111, 148, 182, 0.8) inset;
+    opacity: 0;
+    transform: scale3d(1.2, 1.2, 1);
+}
+}

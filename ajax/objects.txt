@@ -1,0 +1,196 @@
+{
+  "data": [
+    {
+      "name": "Tiger Nixon",
+      "brief": "Some Other unique Description","position": "Dentist",
+      "salary": "$320,800",
+      "start_date": "2011/04/25",
+      "office": "Nairobi",
+      "extn": "5421"
+    },
+    {
+      "name": "Garrett Winters",
+      "brief": "Some Description","position": "Dermatologist",
+      "salary": "$170,750",
+      "start_date": "2011/07/25",
+      "office": "Eldoret",
+      "extn": "8422"
+    },
+    {
+      "name": "Airi Satou",
+      "brief": "Some Description","position": "Dermatologist",
+      "salary": "$162,700",
+      "start_date": "2008/11/28",
+      "office": "Eldoret",
+      "extn": "5407"
+    },
+    {
+      "name": "Brielle Williamson",
+      "brief": "Some Description","position": "Gastriologist",
+      "salary": "$372,000",
+      "start_date": "2012/12/02",
+      "office": "Nairobi",
+      "extn": "4804"
+    },
+    {
+      "name": "Herrod Chandler",
+      "brief": "Some Description","position": "Urologist",
+      "salary": "$137,500",
+      "start_date": "2012/08/06",
+      "office": "Nairobi",
+      "extn": "9608"
+    },
+    {
+      "name": "Rhona Davidson",
+      "brief": "Some Description","position": "Gastriologist",
+      "salary": "$327,900",
+      "start_date": "2010/10/14",
+      "office": "Eldoret",
+      "extn": "6200"
+    },
+    {
+      "name": "Colleen Hurst",
+      "brief": "Some Description","position": "Neurosurgeon",
+      "salary": "$205,500",
+      "start_date": "2009/09/15",
+      "office": "Nairobi",
+      "extn": "2360"
+    },
+    {
+      "name": "Sonya Frost",
+      "brief": "Some Description","position": "General Practioner",
+      "salary": "$103,600",
+      "start_date": "2008/12/13",
+      "office": "Nairobi",
+      "extn": "1667"
+    },
+    {
+      "name": "Jena Gaines",
+      "brief": "Some Description","position": "Cardiologist",
+      "salary": "$90,560",
+      "start_date": "2008/12/19",
+      "office": "Nairobi",
+      "extn": "3814"
+    },
+    {
+      "name": "Gloria Little",
+      "brief": "Some Description","position": "Dentist",
+      "salary": "$237,500",
+      "start_date": "2009/04/10",
+      "office": "Nairobi",
+      "extn": "1721"
+    },
+    {
+      "name": "Bradley Greer",
+      "brief": "Some Description","position": "General Practioner",
+      "salary": "$132,000",
+      "start_date": "2012/10/13",
+      "office": "Nairobi",
+      "extn": "2558"
+    },
+    {
+      "name": "Doris Wilder",
+      "brief": "Some Description","position": "Urologist",
+      "salary": "$85,600",
+      "start_date": "2010/09/20",
+      "office": "Eldoret",
+      "extn": "3023"
+    },
+    {
+      "name": "Angelica Ramos",
+      "brief": "Some Description","position": "Chief Executive Officer (CEO)",
+      "salary": "$1,200,000",
+      "start_date": "2009/10/09",
+      "office": "Nairobi",
+      "extn": "5797"
+    },
+    {
+      "name": "Brenden Wagner",
+      "brief": "Some Description","position": "General Practioner",
+      "salary": "$206,850",
+      "start_date": "2011/06/07",
+      "office": "Nairobi",
+      "extn": "1314"
+    },
+    {
+      "name": "Michelle House",
+      "brief": "Some Description","position": "Gastriologist",
+      "salary": "$95,400",
+      "start_date": "2011/06/02",
+      "office": "Eldoret",
+      "extn": "2769"
+    },
+    {
+      "name": "Howard Hatfield",
+      "brief": "Some Description","position": "Cardiologist",
+      "salary": "$164,500",
+      "start_date": "2008/12/16",
+      "office": "Nairobi",
+      "extn": "7031"
+    },
+    {
+      "name": "Timothy Mooney",
+      "brief": "Some Description","position": "Cardiologist",
+      "salary": "$136,200",
+      "start_date": "2008/12/11",
+      "office": "Nairobi",
+      "extn": "7580"
+    },
+    {
+      "name": "Bruno Nash",
+      "brief": "Some Description","position": "General Practioner",
+      "salary": "$163,500",
+      "start_date": "2011/05/03",
+      "office": "Nairobi",
+      "extn": "6222"
+    },
+    {
+      "name": "Zenaida Frank",
+      "brief": "Some Description","position": "General Practioner",
+      "salary": "$125,250",
+      "start_date": "2010/01/04",
+      "office": "Nairobi",
+      "extn": "7439"
+    },
+    {
+      "name": "Zorita Serrano",
+      "brief": "Some Description","position": "General Practioner",
+      "salary": "$115,000",
+      "start_date": "2012/06/01",
+      "office": "Nairobi",
+      "extn": "4389"
+    },
+    {
+      "name": "Jennifer Acosta",
+      "brief": "Some Description","position": "Junior Neurosurgeon",
+      "salary": "$75,650",
+      "start_date": "2013/02/01",
+      "office": "Nairobi",
+      "extn": "3431"
+    },
+    {
+      "name": "Cara Stevens",
+      "brief": "Some Description","position": "Urologist",
+      "salary": "$145,600",
+      "start_date": "2011/12/06",
+      "office": "Nairobi",
+      "extn": "3990"
+    },
+    {
+      "name": "Lael Greer",
+      "brief": "Some Description","position": "Dentist",
+      "salary": "$103,500",
+      "start_date": "2009/02/27",
+      "office": "Nairobi",
+      "extn": "6733"
+    },
+    {
+      "name": "Michael Bruce",
+      "brief": "Some Description","position": "Neurosurgeon",
+      "salary": "$183,000",
+      "start_date": "2011/06/27",
+      "office": "Mombasa",
+      "extn": "5384"
+    }
+  ]
+}

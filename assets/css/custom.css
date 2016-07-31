@@ -1,0 +1,71 @@
+/**
+ *
+ * Apply Here your Custom CSS
+ *
+*/
+
+body {
+	
+}
+
+.start-call:before {
+	-webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+    color:green;
+}
+
+.end-call:before {
+	-webkit-transform: rotate(225deg);
+    -moz-transform: rotate(225deg);
+    -ms-transform: rotate(225deg);
+    -o-transform: rotate(225deg);
+    transform: rotate(225deg);
+    color:red;
+}
+
+.modal-header {
+    background: #303641;
+    border-bottom: 0 solid #e5e5e5;
+}
+
+.modal-header h4 {
+    color: #aaabae;
+}
+
+.modal-body.videobox {
+    background: #303641;
+    padding: 0;
+}
+
+.modal-footer {
+    background: #303641;
+    border-top: 0 solid #e5e5e5;
+    padding: 15px;
+    text-align: center;
+}
+
+.btn-endcall {
+    padding: 4px 8px;
+}
+
+.btn-endcall i {
+    font-size: 19px;
+    color: red;
+    -webkit-transform: rotate(135deg);
+    -moz-transform: rotate(135deg);
+    -ms-transform: rotate(135deg);
+    -o-transform: rotate(135deg);
+    transform: rotate(135deg);
+}
+
+.btn-mutecall i {
+    font-size: 16px;
+}
+
+.btn-pausecall i {
+    font-size: 16px;
+    color: #cabc26;
+}
